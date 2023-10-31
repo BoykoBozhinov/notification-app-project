@@ -1,0 +1,25 @@
+twilio:
+    account_sid: AC9ce2ce9334bca2ccb7268b452e239444
+    auth_token: b0c565135bf427a3944d5ead146455b0
+    sendNumber: +13146965444
+logging:
+    level:
+        blog: WARN
+        org: WARN
+        org.hibernate.SQL: DEBUG
+server:
+    port: 8080
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        password: Bjj_BlackBelt_77
+        url: jdbc:mysql://localhost:3306/notification_app?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL8Dialect
+                format_sql: true
+                show_sql: true

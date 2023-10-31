@@ -1,0 +1,6 @@
+.smsForm {
+    background-image: url('../images/smsWallpaper.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
